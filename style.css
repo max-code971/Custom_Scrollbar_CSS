@@ -1,0 +1,36 @@
+body {
+    background-color: #0d0c24;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 2em;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 0.2px;
+    padding: 0 2em;
+  }
+  .container {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-color: #00c6ff #242942;
+  }
+  ::-webkit-scrollbar {
+    width: 1.2em;
+    overflow-x: none;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 0.3em;
+    background: #242942;
+    margin-block: 0.25em;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border-radius: 0.3em;
+  }
